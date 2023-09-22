@@ -1,0 +1,39 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid silver;
+}
+
+nav {
+    height: 80px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #333;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 100px;
+}
+
+article {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
