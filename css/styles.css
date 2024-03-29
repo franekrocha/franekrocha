@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 16px;
+}
+
+header, main, footer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(5, 120, 120);
+}
+
+a:hover {  
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+}
+
+article {
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid rgb(210, 215, 220);
+}
+
