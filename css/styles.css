@@ -21,6 +21,9 @@ header, main, footer {
 nav {
   display: flex;
   justify-content: space-between;
+  margin: 32px auto;
+  width: 100%;
+  max-width: 800px;
 }
 
 strong, span {
