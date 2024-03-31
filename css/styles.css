@@ -1,6 +1,15 @@
+* {
+  margin: 32px 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 16px;
+  margin: 0 32px;
+  font-family: Arial, sans-serif;
 }
 
 header, main, footer {
@@ -14,7 +23,12 @@ nav {
   justify-content: space-between;
 }
 
+strong, span {
+  margin: 0;
+}
+
 a {
+  margin: 0;
   text-decoration: none;
   color: rgb(5, 120, 120);
 }
@@ -23,13 +37,15 @@ a:hover {
   text-decoration: underline;
 }
 
-img {
-  width: 100%;
+article {
+  padding: 32px;
+  border-radius: 32px;
+  border: 1px solid rgb(210, 215, 220);
 }
 
-article {
-  padding: 16px;
-  border-radius: 16px;
-  border: 1px solid rgb(210, 215, 220);
+img {
+  margin: 0;
+  height: 2rem;
+  display: block;
 }
 
