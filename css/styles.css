@@ -1,33 +1,26 @@
+:root {
+  --margin: 32px; 
+}
+
 * {
-  margin: 32px 0;
+  margin: 0;
   padding: 0;
 }
 
 html {
-  margin: 0;
+  margin: 0 var(--margin);
 }
 
 body {
-  margin: 0 32px;
-  font-family: Arial, sans-serif;
-}
-
-header, main, footer {
-  margin: 0 auto;
+  margin: var(--margin) auto;
   width: 100%;
   max-width: 800px;
+  font-family: Arial, sans-serif;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 32px auto;
-  width: 100%;
-  max-width: 800px;
-}
-
-strong, span {
-  margin: 0;
 }
 
 a {
@@ -40,15 +33,18 @@ a:hover {
   text-decoration: underline;
 }
 
+h1, h2, h3, p {
+  margin: var(--margin) 0;
+}
+
 article {
-  padding: 32px;
-  border-radius: 32px;
+  padding: var(--margin);
+  border-radius: var(--margin);
   border: 1px solid rgb(210, 215, 220);
 }
 
 img {
-  margin: 0;
-  height: 2rem;
+  height: var(--margin);
   display: block;
 }
 
